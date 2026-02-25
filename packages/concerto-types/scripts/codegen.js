@@ -6,7 +6,7 @@ const { FileWriter } = require('@accordproject/concerto-util');
 const path = require('path');
 
 /**
- * Generate TypeScript files from the metamodel metamodel.
+ * Generate TypeScript files from metamodel metamodel.
  */
 async function main() {
     const modelManager = new ModelManager({ addMetamodel: true, strict: true });
